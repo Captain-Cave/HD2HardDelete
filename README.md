@@ -11,6 +11,7 @@ This script delete helldivers registerkeys and folder under %appdata% what can c
 
 If you are not sure is this script save or not you can alway ask AI or Reddit or anywhere else what you trust is this save to use and do this script do what I say it to do.
 
+### Be sure you have uninstalled Helldivers 2 before you run this script!
 
 1. Open powershell by pressing Windows Key and write powershell, right click and run as administrator
 2. Click on [HD2HardDelete script](https://github.com/Captain-Cave/HD2HardDelete/blob/main/HD2HardDelete.ps1)
