@@ -9,8 +9,7 @@ if (Test-Path $folderToDelete) {
 
 # Deleting registerykeys
 $registryPaths = @(
-    "HKCU:\SOFTWARE\Microsoft\DirectInput\HELLDIVERS2.EXE66C4AF1400DA6230",
-    "HKCU:\SOFTWARE\NVIDIA Corporation\Ansel\HELLDIVERS 2"
+    "HKCU:\SOFTWARE\Microsoft\DirectInput\HELLDIVERS2.EXE66C4AF1400DA6230"
 )
 
 foreach ($path in $registryPaths) {
