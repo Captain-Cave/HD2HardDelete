@@ -10,7 +10,8 @@ if (Test-Path $folderToDelete) {
 # Deleting registerykeys
 $registryPaths = @(
     "HKCU:\SOFTWARE\Microsoft\DirectInput\HELLDIVERS2.EXE66C4AF1400DA6230",
-    "Computer\HKEY_CURRENT_USER\SOFTWARE\Valve\Steam\Apps\553850"
+    "HKCU:\SOFTWARE\Valve\Steam\Apps\553850",
+    "HKCU:\System\GameConfigStore\Children\7446d049-d74d-4dbf-a06c-f62b0d1b0d48"
 )
 
 foreach ($path in $registryPaths) {
